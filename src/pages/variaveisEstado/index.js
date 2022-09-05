@@ -54,7 +54,23 @@ function VariavelEstado() {
     setTextoVisualizado(textoDigitado)
   }
 
+ const [valor, setValor] = useState(false)
+ console.log(valor)
 
+ function cliqueMuda() {
+  setValor(true)
+ }
+
+ const [msg, setMsg] = useState('')
+
+ function verBool() {
+  if(valor === true ) {
+    setMsg('verdadeiro')
+  } else{
+    setMsg('falso')
+  }
+ }
+ console.log(msg)
 
   return (
     <div className="main-container">
@@ -64,6 +80,18 @@ function VariavelEstado() {
       <section className='container'>
         <h3>{texto}</h3>
         <input type='text' placeholder='digite aqui' onChange={e => setTexto(e.target.value)}/>
+      </section>
+
+      <section className="container">
+
+      {msg}
+        <select name='opcoes'>
+    	    <option onClick={cliqueMuda}>1</option>
+          <option>2</option>
+          <option>3</option>
+        
+
+        </select>
       </section>
 
       <section className='container'>

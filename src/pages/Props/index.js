@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './index.scss';
 import Box from '../../components/boxProps';
+import Card from '../../components/cardComponente';
 
 function App() {
 
@@ -48,6 +49,8 @@ function App() {
           <Box titulo={titulo2} descricao={descricao2} imagem={imagem2}/>
 
       </section>
+
+      <Card orientacao='flexboxrowreverse'/>
 
      
 

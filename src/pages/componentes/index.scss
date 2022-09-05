@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    height: 120vh;
+
+    *{
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+        background-color: #ffffff;
+        padding: 35px;
+        width: 100%;
+    }
+
+}
