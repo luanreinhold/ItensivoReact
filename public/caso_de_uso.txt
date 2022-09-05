@@ -1,0 +1,44 @@
+Usuario:
+!landing page 
+- Cadastrar conta
+- Realizar Login
+- Deslogar
+- Carregar jogos mais vendidos
+
+!parte usuario
+- Editar dados pessoais
+- Remover o favorito
+- Selecionar os detalhes de um pedido
+- Carrega acompanhamento de entrega
+- Carrega dados do usuário
+- Carrega lista de desejos
+- Carrega Histórico
+- Carrega pedidos
+- filtra pedidos por status
+
+!area da loja
+- Filtrar por jogo
+- Pesquisar um produto (campo de busca)
+- Carrega informações do jogo
+- Adicionar ao carrinho
+- Adicionar aos favoritos
+- Carrega jogos
+-
+
+!carrinho de compras
+
+- Remover Carinho
+- Carrega Carrinho
+- Finalizar Compra
+
+!admin
+- Realizar login
+- Deslogar 
+- Cadastrar jogo
+- Consultar jogo
+- Editar jogo
+- Remover jogo
+- Altera o estado de uma compra 
+- Carrega pedidos pendentes
+- Carrega pedidos concluídos
+

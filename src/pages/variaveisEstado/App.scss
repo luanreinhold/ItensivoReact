@@ -1,0 +1,79 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #E5E5E5;
+  height: 150vh;
+
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  
+h3 {
+  align-self: center;
+}
+  
+
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    width: 481px;
+    height: 171px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    
+    margin-bottom: 2em;
+  }
+
+  .container-aboutme {
+    padding: 15px;
+    height: 368px;
+    background-color: #ffffff;
+    border: 2px solid black;
+  }
+
+  .container-aboutme > div {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #nome {
+    width: 60%;
+  }
+
+  #cn {
+    width: 15%;
+  }
+
+  input {
+    align-self: center;
+    border: rgb(62, 61, 61) 1px solid;
+    border-radius: 2px;
+    padding: 8px;
+    width: 135px;
+    margin-bottom: 2px;
+ 
+  }
+
+  button {
+    width: 86px;
+    height: 32px;
+    border: 3px;
+    background-color: #0084FF;
+    color: white;
+
+    align-self: center;
+    cursor: pointer;
+  }
+
+
+
+}
+

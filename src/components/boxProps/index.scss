@@ -1,0 +1,44 @@
+.formatacaobox {
+    * {
+        box-sizing: border-box;
+        margin: 0px
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width:  495px;
+        height: 196px;
+        box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+        border-radius: 6px;
+        padding: 15px;
+        margin: 1em;
+        background-color: #FFFFFF;
+    }
+
+    .container-fb {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-texto{
+       
+        width: 70%;
+      
+    }
+    
+
+    .flexreverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    img {
+        width: 175px;
+   
+     
+    }
+    
+}

@@ -1,0 +1,36 @@
+.App {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .fb-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fb-row {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .input-box > input{
+        width: 10%;
+    }
+
+    .faixa-props {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 40em;
+        height: 45em;
+        background-color: #E5E5E5;
+    }
+}
+    .faixa-props > div {
+        margin: 1em;
+    }
