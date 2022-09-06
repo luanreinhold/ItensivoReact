@@ -1,5 +1,4 @@
 .App {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +12,6 @@
     .fb-row {
         display: flex;
         flex-direction: row;
-
     }
 
     .input-box > input{
@@ -30,7 +28,9 @@
         height: 45em;
         background-color: #E5E5E5;
     }
-}
+
     .faixa-props > div {
         margin: 1em;
     }
+}
+   

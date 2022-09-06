@@ -1,4 +1,4 @@
-.page {
+.pageComponente {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +19,29 @@
         background-color: #ffffff;
         padding: 35px;
         width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .card-capy {
+        flex-wrap: wrap;
+        width: 35em;
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    .card-capy > * {
+        margin: 1em;
     }
 
 }
